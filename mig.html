@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    
+    
+    <section class="content">
+        <h1>업무인수인계 확인서</h1>
+<div class="content">
+    인수자 <b>강동호</b>는 인계자 <b>이승철</b>로부터 아래내용을 인수인계 받았음을 확인합니다.
+</div>
+
+<div class="sign">
+    <div class= "table-left-last">
+        
+        인계자 : 이승철
+        <br/>
+        <br/>
+        서명: <img src="https://s3.ap-northeast-2.amazonaws.com/storage.rankup.storelink.io/notices/hello.png"alt="sign" height="100" width="218" align ="bottom"/>
+
+    </div>
+    <div class= "table-right-last">
+        인수자 : 강동호
+        <br/>
+        <br/>
+        서명:
+        <img id ="jsImg" alt="sign" height="100" width="218"/>
+        <canvas id ="jsCanvas" class="canvas"></canvas>
+    </div>    
+</div>
+
+
+<div class="row">
+    <div class= "table-left">업무구분</div>
+    <div class= "table-right">업무내용</div>    
+</div>
+<div class="row">
+<div class= "table-left">데이테베이스 구조</div>
+<div class= "table-right">31개 테이블의 구조와 컬럼별 사용용도</div>
+</div>
+<div class="row">
+    <div class= "table-left">API</div>
+    <div class= "table-right">컨트롤러 15기 하위 CRUD 및 상세 로직</div>
+    </div>
+    <div class="row">
+        <div class= "table-left">배치</div>
+        <div class= "table-right">캠페인 상태변경, 미구매자 탈락처리, 쿠팡 캠페인 가격추적, 푸시발송, 포인트 인출 가능화</div>
+    </div>
+    <div class="row">
+        <div class= "table-left-last">운영</div>
+        <div class= "table-right-last">캠페인, 지원자, 미션 관계
+
+            관리자 아이디생성
+            
+            위메프 Q&A 미인증건 원인 분석</div>
+    </div>
+    <button id ="jsSave" class="confirm">서명완료</button>
+</section>
+
+
+<script src="app.js"></script>
+</body>
+
+</html>

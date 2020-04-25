@@ -1,0 +1,98 @@
+@import "reset.css";
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 50px 0;
+    
+}
+
+#main {
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#statement {
+    margin-top: 55px;
+    font-size: 14px;
+}
+
+.firstBox {
+    border: 1px solid;
+    border-color: thistle;
+    height: 150px;
+    margin-top:  20px;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.secondBox {
+    border: 1px solid;
+    border-bottom: 1px;
+    border-color: thistle;
+    height: 400px;
+    margin-top:  50px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.signLeft {
+    float: left;
+    /* display: inline-block; */
+    width: 289px;
+    height: 100%;
+    border-right:1px thistle solid;
+    margin: 0;
+}
+
+
+.signRight {
+    float: left;
+    /* display: inline-block; */
+    width: 289px;
+    height: 100%;
+    
+}
+
+
+
+
+.signLeftSec {
+    float: left;
+    /* display: inline-block; */
+    width: 289px;
+    height: 80px;
+    border-right:1px thistle solid;
+    border-bottom: 1px thistle solid;
+    margin: 0;
+    text-align: center;
+}
+
+
+.signRightSec {
+    float: left;
+    /* display: inline-block; */
+    width: 289px;
+    height: 80px;
+    border-bottom: 1px thistle solid;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    display: inline-block;
+    font-size: 14px;
+    width: 289px;
+    
+}
