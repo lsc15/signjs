@@ -104,7 +104,7 @@ function handleSaveClick(){
     formdata.append("webmasterfile", file);
 
     var request = new XMLHttpRequest();
-    request.open("POST", "https:api.pugshop.co.kr/files/dumm");
+    request.open("POST", "https://api.pugshop.co.kr/files/dumm");
     request.send(formdata);
       
     setTimeout(reload,1000);
