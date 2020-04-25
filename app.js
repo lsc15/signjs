@@ -79,17 +79,17 @@ function handleSaveClick(){
     console.log(image);
 
     
-    const ajax = new XMLHttpRequest();
-    ajax.open("POST", "http://localhost:8080/files/dumm", false);
-    ajax.onreadystatechange = function() {
-        console.log(ajax.responseText);
-    }
-    ajax.setRequestHeader("Content-Type", "application/json");
+    // const ajax = new XMLHttpRequest();
+    // ajax.open("POST", "http://localhost:8080/files/dumm", false);
+    // ajax.onreadystatechange = function() {
+        // console.log(ajax.responseText);
+    // }
+    // ajax.setRequestHeader("Content-Type", "application/json");
   
 
-    ajax.onreadystatechange = function() {
-    console.log(ajax.responseText);
-  }
+    // ajax.onreadystatechange = function() {
+    // console.log(ajax.responseText);
+//   }
 
   var blobBin = atob(image.split(',')[1]);	// base64 데이터 디코딩
     var array = [];
